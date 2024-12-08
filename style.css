@@ -1,0 +1,551 @@
+@font-face {
+    font-family: '20 Kopeek';
+    src: url('fonts/20-kopeek.ttf') format('truetype'); /* Ensure the path matches your folder structure */
+  }
+  
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box
+}
+
+  body {
+    font-family: '20 Kopeek', sans-serif; 
+  }
+  
+  .bacground{
+background-image: url("./assets/logos/01\ 1.png");
+background-repeat: no-repeat;
+background-size: cover; 
+background-position: center;
+height: 100vh;
+  }
+
+
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+  
+}
+
+
+header{
+    display: flex;
+    align-items: center;
+    gap: 510px;
+    padding: 32px 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+header .logo .px_15{
+  width: 225px;
+}
+
+header p, button{
+    color: rgba(255, 255, 255, 1);
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 20px;
+}
+
+
+button{
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 7px 29px;
+    border-radius: 15px;
+    background-color: transparent;
+}
+
+button:hover{
+    color: #ffffff;
+transition: all .3s ease;
+cursor: pointer;
+background-color: #7e7878;
+}
+
+.buttons img{
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding: 11px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+.buttons img:hover{
+    color: #7e7878;
+background-color: rgba(255, 255, 255, 0.149);
+transition: all .5s ease;
+cursor: pointer;
+}
+
+ .buttons .facebook{
+    padding: 11px 15px;
+    border-radius: 50%;
+    background-color: transparent;
+}
+
+  .px_20{
+    font-size: 15px; 
+  font-weight: 400;
+  }
+
+.px_55{
+    color: rgba(24, 24, 24, 1);
+    font-size: 55px;
+    line-height: 55px;
+}
+
+.px_34{
+    color: rgba(24, 24, 24, 1);
+    font-size: 34px;
+    line-height: 34px;
+   padding-top: 30px;
+   padding-bottom: 60px;
+}
+
+section{
+  padding: 250px 0;
+}
+
+.content{
+  width:50%;
+}
+
+
+section button{
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(24, 24, 24, 1);
+    padding: 13px 47px;
+    border-radius: 40px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+}
+
+.buttons_2{
+  display: flex;
+  gap: 20px;
+}
+
+
+
+.bacground_main{
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.px_38{
+  padding: 70px 0 20px 0;
+font-size: 38px;
+font-weight: 400;
+line-height: 41.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+
+.conserva{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 140px;
+}
+
+.main_text{
+  width: 39%;
+}
+
+.can{
+  width: 56%;
+}
+
+.px_18{
+ 
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+
+.px_55{
+  color: rgba(24, 24, 24, 1);
+font-size: 55px;
+font-weight: 400;
+line-height: 55px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+max-width: 97%;
+}
+
+.numbers h1{
+ 
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 55px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  
+}
+.numbers .px_18{
+font-size: 18px;
+font-weight: 400;
+line-height: 25.2px;
+text-align: left;
+}
+
+.numbers{
+  display: flex;
+  gap: 40px;
+  margin-top: 140px;
+}
+
+.numbers div{
+  display: flex;
+  gap: 10px;
+  justify-self: center;
+  align-items: flex-start;
+}
+
+.numbers div .px_18{
+  margin-top: 29px;
+}
+
+.papers
+{
+  padding-top: 120px;
+  display: flex;
+  align-items: end;
+  gap: 82px;
+}
+
+.px_36{
+ 
+font-size: 38px;
+font-weight: 400;
+line-height: 41.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-bottom: 30px;
+}
+
+.amperia button{
+  color: rgba(24, 24, 24, 1);
+  border: 1px solid rgba(24, 24, 24, 1);
+  padding: 13px 47px;
+  border-radius: 40px;
+}
+
+button:hover{
+transition: all .3s ease;
+cursor: pointer;
+background-color: #4a454543;
+}
+
+.amperia_text{
+  width: 233px;
+}
+
+.amperia{
+  margin-top: 40px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: start;
+  justify-content: left;
+  gap: 52px;
+}
+
+.amperia2{
+  display: flex;
+  gap: 90px;
+}
+
+/* .coral{
+  width: 262px;
+} */
+
+.corblack{
+  display: flex;
+  gap: 70px;
+}
+
+.px_26{
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 31.2px;
+  text-align: left;
+  
+}
+
+.show{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(43, 89, 195, 1);
+  padding: 23px 47px;
+  border-radius: 40px;
+}
+
+.show:hover{
+  background-color: #0808ed43;
+}
+
+.px_38{
+  font-size: 38px;
+  font-weight: 400;
+  line-height: 41.8px;
+  text-align: left;
+  color: rgba(24, 24, 24, 1);
+}
+
+.guide{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(43, 89, 195, 1);
+  padding: 11px 39px 18px 14px;
+  margin-bottom: 30px;
+}
+
+.dislife{
+  max-width: 57%;
+
+}
+.guideline{
+max-width: 42%;
+}
+
+.guidelines{
+  display: flex;
+  gap: 16px;
+}
+
+.contact input{
+  outline: none;
+  border: 1px solid rgba(24, 24, 24, 1);
+  border-radius: 10px;
+  padding: 23px 149px 23px 29px;
+  color: rgba(134, 134, 134, 1);
+  font-size: 18px;
+}
+
+.contact button{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(43, 89, 195, 1);
+  padding: 23px 47px;
+  border-radius: 40px;
+}
+
+.contact button:hover{
+  background-color: #0808edc2;
+
+}
+
+.contact{
+  display: flex;
+  gap: 30px;
+margin-top: 27px;
+margin-bottom: 20px;
+}
+
+
+
+.checkbox-container {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 11px;
+}
+.checkbox-container a {
+  color: blue;
+  text-decoration: none;
+  margin-left: 5px;
+}
+.checkbox-container a:hover {
+  text-decoration: underline;
+}
+
+.step{
+  color: rgba(24, 24, 24, 1);
+  max-width: 40%;
+  margin-bottom: 83px;
+  margin-top: 150px;
+}
+
+.philosophy{
+  display: inline-block;
+  background-color: rgba(43, 89, 195, 1);
+  border: 1px solid rgba(43, 89, 195, 1);
+border-radius: 10px;
+}
+
+.philosophy p{
+  color: rgba(255, 255, 255, 1);
+text-align: center;
+padding-left: 10px;
+padding-right: 20px;
+}
+
+.philosophy p:nth-child(1){
+  padding: 92px 0 130px 0;
+}
+.philosophy p:nth-child(3){
+padding: 34px 0 92px 0;
+}
+
+.philosophy p:nth-child(5){
+  padding: 131px 0 80px 0;
+}
+
+.freelancer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 150px;
+}
+
+.freelanc{
+  color: rgba(134, 134, 134, 1);
+}
+
+.free{
+  color: rgba(43, 89, 195, 1);
+}
+
+.freelancer_text{
+  display: flex;
+gap: 25px;
+}
+
+.freelancer_text div{
+  width: 260px;
+}
+
+.freelancer_text .big{
+  width: 360px;
+}
+
+.freelancer_text div p{
+  text-align: left;
+}
+
+.freelancer_text div p:nth-child(2){
+  padding-top: 54px;
+}
+
+.freelancer_text div:nth-child(3) p:nth-child(2){
+  padding-top: 12px;
+}
+
+.freelancer_2row{
+  padding-top: 26px;
+  padding-bottom: 26px;
+  display: flex;
+  gap: 25px;
+}
+
+.freelancer_2row p{
+  width: 260px;
+}
+
+
+
+
+.bacground_2{
+  background-image: url("./assets/logos/Rectangle 32.png");
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
+
+}
+
+.bacground_2 .container p, h1{
+  color: rgba(255, 255, 255, 1);
+}
+
+.guarantee{
+  padding: 282px 0 40px 0;
+}
+
+.last{
+  margin-top: 0;
+  padding-bottom: 80px;
+}
+
+.second{
+  flex-direction: column;
+  margin-top: 0;
+}
+
+footer{
+  display: flex;
+  align-items:  flex-start;
+  gap: 130px;
+  padding-top: 150px;
+}
+
+
+
+.number{
+  padding: 30px 0 15px 0;
+}
+
+.moscow{
+  padding-top: 15px;
+}
+
+footer a{
+  text-decoration: none;
+  color: rgba(24, 24, 24, 1);
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.footer p{
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(43, 89, 195, 1);
+  border-radius: 10px;
+}
+
+.footer p:nth-child(1){
+padding: 6px 80px 56px 13px;
+
+}
+
+.footer p:nth-child(2){
+padding: 6px 6px 56px 6px;
+}
+.footer p:nth-child(3){
+  padding: 6px 6px 56px 6px;
+  }
+
+
+  .footer p:nth-child(4){
+    padding: 6px 6px 62px 6px;
+    }
+
+    .creative{
+      color: rgba(24, 24, 24, 1);
+      margin-top: 38px;
+      padding-bottom: 20px;
+      text-decoration: none;
+    }
